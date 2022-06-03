@@ -1,0 +1,132 @@
+:root{
+    --primary-color:#2F325A;
+}
+body, html{
+  height: 100%;
+}
+body{
+    background-color: #F9C6D0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  li {
+    float: left;
+    border: 1px solid;
+    border-color: var(--primary-color);
+   
+  }
+  
+  li a {
+    display: inline-block;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: var(--primary-color);
+    color: aliceblue;
+  }
+  
+  .active {
+    background-color: var(--primary-color);
+    color: aliceblue;
+  }
+
+  .PB{
+    margin-top: 20%;
+    border: 3px solid;
+    border-color: var(--primary-color) !important;  
+  }
+  .PB p{
+    color: var(--primary-color); 
+    font-weight: 900;
+    font-size: 90px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .border-prim{
+    border: 3px solid;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color); 
+    text-align: right;
+  }
+
+  .border-prime{
+    border: 3px solid;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color); 
+    
+  }
+  .btn-prime{
+    background-color: var(--primary-color) !important;
+    color: aliceblue;
+  }
+
+  .btn-prime a:hover{
+    background-color: aliceblue;
+    color: var(--primary-color) ;
+  }
+
+  h2, h3{
+    font-weight: 700;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 2px;
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+.content {
+    position: relative;
+}
+.content img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#Education , #Projects{
+  margin-top: 5%;
+}
+
+#Education h2{
+  text-align: center;
+  color: aliceblue;
+  font-weight: 700;
+  background-color: var(--primary-color);
+}
+#Projects h2{
+  text-align: center;
+  color: aliceblue;
+  font-weight: 700;
+  background-color: var(--primary-color);
+
+}
+ 
+ .footer-1{
+   margin-top: 10px;
+   background-color: var(--primary-color);
+   color: aliceblue;
+   font-size: 30px;
+ } 
+ 
